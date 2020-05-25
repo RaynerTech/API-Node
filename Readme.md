@@ -1,6 +1,6 @@
 
-=========================
-    RODANDO A API
+=====================
+    RODANDO  API
 =========================
 
 //Instalar todas as dependencias
@@ -18,7 +18,7 @@ Exemplo: http://localhost:3000 + o ID recuperado
 
 
 
-==========================
+======================
       FERRAMENTAS
 ==========================
 
@@ -27,8 +27,8 @@ insomnia: facilita a interação de APIs baseadas em http e a visulização da r
 
 
 
-======================
-    INSTALAÇÕES
+==================
+    DEPENDENCIAS
 ======================
 //aquivo packge
 npm init
@@ -44,3 +44,13 @@ npm install mongodb
 
 //instalar Mongoose - Traduz os dados do banco para o js para serem usados na api
 npm install --save mongoose
+
+
+
+NÃO USEI ESSAS DEPENDENCIAS
+//instalar o body-parser ajudará na redenderização via navegador
+npm install body-parser
+
+
+//instalação da engine ejs 
+npm install ejs
